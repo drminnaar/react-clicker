@@ -10,6 +10,30 @@ This project also demonstrates:
 * eslint setup and configuration
 * SCSS setup and configuration
 
+---
+
+## Developed With
+
+* [Node.js](https://nodejs.org/en/) - Javascript runtime
+* [React](https://reactjs.org/) - A javascript library for building user interfaces
+* [Babel](https://babeljs.io/) - A transpiler for javascript
+* [Webpack](https://webpack.js.org/) - A module bundler
+* [SCSS](http://sass-lang.com/) - A css metalanguage
+* [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
+
+---
+
+## Related Projects
+
+* [react-starter]
+* [react-clicker]
+* [react-clock-basic]
+* [react-timer-basic]
+* [react-timer-advanced]
+* [react-masterminds]
+
+---
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -106,14 +130,7 @@ Follow the following steps to get development environment running.
   npm run serve
   ```
 
-## Developed With
-
-* [Node.js](https://nodejs.org/en/) - Javascript runtime
-* [React](https://reactjs.org/) - A javascript library for building user interfaces
-* [Babel](https://babeljs.io/) - A transpiler for javascript
-* [Webpack](https://webpack.js.org/) - A module bundler
-* [SCSS](http://sass-lang.com/) - A css metalanguage
-* [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
+---
 
 ## Versioning
 
@@ -122,3 +139,10 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 ## Authors
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
+
+[react-starter]: https://github.com/drminnaar/react-starter
+[react-clicker]: https://github.com/drminnaar/react-clicker
+[react-clock-basic]: https://github.com/drminnaar/react-clock-basic
+[react-timer-basic]: https://github.com/drminnaar/react-timer-basic
+[react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
+[react-masterminds]: https://github.com/drminnaar/react-masterminds
