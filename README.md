@@ -10,6 +10,8 @@ This project also demonstrates:
 * eslint setup and configuration
 * SCSS setup and configuration
 
+|![react-clicker-1](https://user-images.githubusercontent.com/33935506/33752825-a81c5ed0-dbec-11e7-8041-44d1a5b2ca46.PNG)|![react-clicker-2](https://user-images.githubusercontent.com/33935506/33752826-a857c722-dbec-11e7-8eb8-12375f840d10.PNG)
+
 ---
 
 ## Developed With
@@ -26,11 +28,28 @@ This project also demonstrates:
 ## Related Projects
 
 * [react-starter]
-* [react-clicker]
+
+  A basic template that consists of the essential elements that are required to start building a React application
+
 * [react-clock-basic]
+
+  A basic clock that displays the current date and time
+
 * [react-timer-basic]
+
+  A basic timer that will start a countdown based on an input of time in seconds
+
 * [react-timer-advanced]
+
+   A basic countdown timer that offers an advanced UI experience
+
 * [react-masterminds]
+
+  A basic game of guessing a number with varying degrees of difficulty
+
+* [react-movie-cards]
+
+  A basic application that displays a list of movies as a list of cards
 
 ---
 
