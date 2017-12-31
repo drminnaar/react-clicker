@@ -10,7 +10,9 @@ This project also demonstrates:
 * eslint setup and configuration
 * SCSS setup and configuration
 
-|![react-clicker-1](https://user-images.githubusercontent.com/33935506/33752825-a81c5ed0-dbec-11e7-8041-44d1a5b2ca46.PNG)|![react-clicker-2](https://user-images.githubusercontent.com/33935506/33752826-a857c722-dbec-11e7-8eb8-12375f840d10.PNG)
+... | ...
+--- | ---
+![](https://user-images.githubusercontent.com/33935506/33752825-a81c5ed0-dbec-11e7-8041-44d1a5b2ca46.PNG) | ![](https://user-images.githubusercontent.com/33935506/33752826-a857c722-dbec-11e7-8eb8-12375f840d10.PNG)
 
 ---
 
@@ -50,6 +52,18 @@ This project also demonstrates:
 * [react-movie-cards]
 
   A basic application that displays a list of movies as a list of cards
+
+* [react-calculator-standard]
+
+  A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions
+
+* [react-bitcoin-monitor]
+
+  An app that monitors changes in the Bitcoin Price Index (BPI)
+
+* [react-weather-standard]
+
+  A weather application that displays the current weather, daily forecasts, and hourly forecasts based on your current geolocation
 
 ---
 
@@ -166,3 +180,6 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
 [react-movie-cards]: https://github.com/drminnaar/react-movie-cards
+[react-calculator-standard]: https://github.com/drminnaar/react-calculator-standard
+[react-bitcoin-monitor]: https://github.com/drminnaar/react-bitcoin-monitor
+[react-weather-standard]: https://github.com/drminnaar/react-weather-standard
