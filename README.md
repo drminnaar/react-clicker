@@ -2,6 +2,8 @@
 
 A basic React app that allows one to increase, decrease, or reset a counter.
 
+Go **[here](http://react-clicker.drminnaar.me/)** for live demo.
+
 This project also demonstrates:
 
 * a typcial React project layout structure
@@ -24,6 +26,7 @@ This project also demonstrates:
 * [Webpack](https://webpack.js.org/) - A module bundler
 * [SCSS](http://sass-lang.com/) - A css metalanguage
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
+* [Surge] - Static web publishing for Front-End Developers
 
 ---
 
@@ -173,6 +176,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
+[Surge]: https://surge.sh/
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
