@@ -11,6 +11,7 @@ This project also demonstrates:
 * webpack setup and configuration
 * eslint setup and configuration
 * SCSS setup and configuration
+* How to run application in a Docker container
 
 ... | ...
 --- | ---
@@ -27,6 +28,7 @@ This project also demonstrates:
 * [SCSS](http://sass-lang.com/) - A css metalanguage
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
 * [Surge] - Static web publishing for Front-End Developers
+* [Docker] - A container management system
 
 ---
 
@@ -109,7 +111,6 @@ Follow the following steps to get development environment running.
    ```bash
    cd react-clicker
    npm install
-   npm dedupe
    ```
 
 ### Build
@@ -166,6 +167,54 @@ Follow the following steps to get development environment running.
   npm run serve
   ```
 
+### Docker Instructions
+
+An alternative to installing and running application on your local machine is to build and run your own Docker container that will host the application. There are 2 files related to Docker setup namely:
+
+* Dockerfile - Used to create Docker Image
+
+* .dockerignore - Used to ignore files in local path that are not required in the container
+
+To get the application up and running in a Docker container, please follow the following instructions:
+
+1. Build Docker Image
+
+   The following command will build a new Docker Image called _'react-clicker'_ with the tag _'1.0.0'_ using the Docker file found in the application root.
+
+   ```docker
+   docker build -t react-clicker:1.0.0 .
+   ```
+
+1. Run Docker Container
+
+   The following command will start a new container based on the Docker image created above. The application within the container runs on port 8080, therefore, as part of command we map container port to local host port. We also give the container a name and run it in the background. The '--rm' switch indicates that the container will be automatically removed once it is stopped.
+
+   ```docker
+   docker run --rm --name react-clicker -p 8080:8080 -d react-clicker:1.0.0
+   ```
+
+1. Open application
+
+   By typing the following command, you should see a runing container having the name _'react-clciker'_.
+
+   ```docker
+   docker container ls
+   ```
+
+   If the container is running, you may navigate to the application using your browser at the following address:
+
+   ```bash
+   http://localhost:8080
+   ```
+
+Lastly, if you're curious to have a look inside container, then you may type the following command:
+
+```docker
+docker exec -it react-clicker /bin/sh
+```
+
+The above command provides you an interactive shell on the container. Please note that the above command must be executed on a running container.
+
 ---
 
 ## Versioning
@@ -177,6 +226,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
 [Surge]: https://surge.sh/
+[Docker]: https://www.docker.com/
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
