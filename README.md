@@ -6,7 +6,7 @@ Go **[here](http://react-clicker.drminnaar.me/)** for live demo.
 
 This project also demonstrates:
 
-* a typcial React project layout structure
+* a typical React project layout structure
 * babel setup and configuration
 * webpack setup and configuration
 * eslint setup and configuration
@@ -25,7 +25,7 @@ This project also demonstrates:
 * [React](https://reactjs.org/) - A javascript library for building user interfaces
 * [Babel](https://babeljs.io/) - A transpiler for javascript
 * [Webpack](https://webpack.js.org/) - A module bundler
-* [SCSS](http://sass-lang.com/) - A css metalanguage
+* [SCSS](http://sass-lang.com/) - A css meta language
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
 * [Surge] - Static web publishing for Front-End Developers
 * [Docker] - A container management system
